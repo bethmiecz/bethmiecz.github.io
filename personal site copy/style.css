@@ -1,0 +1,725 @@
+/* ABOUT ME PAGE */
+
+.container2 {
+  position: absolute;
+  width: 100%;
+  top: 1200px;
+  left: 0px;
+  align-items: center;
+  justify-content: center;
+}
+
+html, body {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    height: 100%;
+    margin: 0px;
+    max-width: 100%;
+    overflow-x: hidden;
+    width: 100%;
+  }
+
+/* TOP NAV BAR */
+
+.topnav {
+    background-color:rgba(192, 163, 254, 1.0);
+    overflow: hidden;
+    position: absolute;
+    top: 0px;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .topnav a {
+    background-color: transparent;
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 20px 70px; 
+    text-decoration: none;
+    font-size: 27px;
+    font-weight: 600;
+  
+    font-family: 'Open Sans', sans-serif;
+  }
+  
+  .topnav a:hover {
+    font-family: 'Open Sans', sans-serif;
+    color: black;
+    background-color: white;
+  }
+  
+  .topnav a.active {
+    font-family: 'Open Sans', sans-serif;
+  }
+
+/* PROFILE SECTION */
+
+.header {
+  position: absolute;
+  top: 60px;
+  left: 29%;
+  width: 100%;
+  height: 50%;
+}
+
+.hey {
+    position: absolute;
+    top: 0px;
+    left: 50px;
+    line-height: 1.2em;
+    font-size: 4em;
+    color: white;
+
+    font-family: 'Shadows Into Light', sans-serif;
+  }
+
+.title {
+    position: absolute;
+    top: 70px;
+    left: 0px;
+    line-height: 1.2em;
+    font-size: 4em;
+    color: #C0A3FE;
+    font-weight: 800;
+
+    font-family: 'Open Sans', sans-serif;
+  }
+
+.description {
+  position: absolute;
+  top: 140px;
+  left: 280px;
+  line-height: 1.2em;
+  font-size: 4em;
+  color: white;
+
+  font-family: 'Shadows Into Light', sans-serif;
+}
+
+.background-img {
+  position: absolute;
+  top: 350px;
+  width: 100%;
+  left: 0px;
+}
+
+.meetu-div {
+  position: absolute;
+  top: 900px;
+  left: 50px;
+  width: 50%;
+}
+
+.meetu {
+  position: absolute;
+  top: 15px;
+  left: 120px;
+  color: white;
+  font-weight: 800;
+  font-size: 24;
+
+  font-family: 'Open Sans', sans-serif;
+}
+
+.par-description {
+  position: absolute;
+  top: 100px;
+  left: 15px;
+  width: 650px;
+  color: white;
+  font-weight: 400;
+  text-align: center;
+  font-size: 30;
+
+  font-family: 'Open Sans', sans-serif;
+}
+
+.some-facts-div {
+  position: absolute;
+  top: 900px;
+  right: 50px;
+  width: 50%;
+}
+
+.facts {
+  position: absolute;
+  top: 15px;
+  right: 150px;
+  color: white;
+  font-weight: 800;
+  font-size: 24;
+
+  font-family: 'Open Sans', sans-serif;
+}
+
+.fact-bullets1 {
+  position: absolute;
+  top: 75px;
+  right: 230px;
+  text-align: center;
+  justify-content: center;
+  color: white;
+  font-weight: 400;
+  font-size: 30;
+
+  font-family: 'Open Sans', sans-serif;
+}
+
+.fact-bullets2 {
+  position: absolute;
+  top: 125px;
+  right: 222px;
+  text-align: center;
+  justify-content: center;
+  color: white;
+  font-weight: 400;
+  font-size: 30;
+
+  font-family: 'Open Sans', sans-serif;
+}
+
+.fact-bullets3 {
+  position: absolute;
+  top: 175px;
+  right: 255px;
+  text-align: center;
+  justify-content: center;
+  color: white;
+  font-weight: 400;
+  font-size: 30;
+
+  font-family: 'Open Sans', sans-serif;
+}
+
+.fact-bullets4 {
+  position: absolute;
+  top: 225px;
+  right: 105px;
+  text-align: center;
+  justify-content: center;
+  color: white;
+  font-weight: 400;
+  font-size: 30;
+
+  font-family: 'Open Sans', sans-serif;
+}
+
+.fact-bullets5 {
+  position: absolute;
+  top: 275px;
+  right: 105px;
+  text-align: center;
+  justify-content: center;
+  color: white;
+  font-weight: 400;
+  font-size: 30;
+
+  font-family: 'Open Sans', sans-serif;
+}
+
+.fact-bullets6 {
+  position: absolute;
+  top: 300px;
+  right: 220px;
+  text-align: center;
+  justify-content: center;
+  color: white;
+  font-weight: 400;
+  font-size: 30;
+
+  font-family: 'Open Sans', sans-serif;
+}
+
+/* LET'S CONNECT & ABOUT ME SECTIONS */
+
+.container1 {
+  position: absolute;
+  top: 1250px;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  left: 0px;
+  border: 1px;
+  border-color: white;
+}
+
+.profile {
+  left: 15px;
+}
+
+.profile-image {
+  position: absolute;
+  width: 450px;
+  left: 100px;
+}
+
+.connect {
+  position: absolute;
+  top: 0px;
+  right: 270px;
+  color: white;
+  font-weight: 800;
+  font-size: 24;
+
+  font-family: 'Open Sans', sans-serif;
+}
+
+.LI-profile-badge {
+  position: absolute;
+  top: 100px;
+  right: 26%;
+  background-color: white;
+}
+
+.github-badge {
+  position: absolute;
+  top: 220px;
+  right: 4%;
+  width: 200px;
+  height: auto;
+  padding: 20px;
+}
+
+.how-to-contact {
+  position: absolute;
+  top: 100px;
+  right: 5.5%;
+  width: 200px;
+  height: auto;
+  padding: 20px;
+}
+
+.contact-header {
+  text-align: center;
+  justify-content: center;
+  color: white;
+  font-weight: 400;
+  font-size: 30;
+
+  font-family: 'Open Sans', sans-serif;
+}
+
+.nyt-maker {
+  position: absolute;
+  top: 350px;
+  right: 19%;
+  color: white;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 25px;
+  width: 400px;
+  padding: 20px;
+  text-align: right;
+  height: 200px;
+}
+
+.nyt-open {
+  position: absolute;
+  top: 417px;
+  right: 8%;
+}
+
+@media only screen and (max-width: 1200px) {
+  .topnav a {
+    font-size: 20px;
+    padding: 20px 20px;
+  }
+
+  .header {
+    left: 10px;
+  }
+
+  .title {
+    left: 70px;
+  }
+
+  .description {
+    top: 200px;
+  }
+
+  .background-img {
+    padding-top: 50px;
+    height: 500px;
+    width: auto;
+  }
+
+  .meetu-div {
+    width: 100%;
+    left: 10px;
+  }
+
+  .meetu {
+    left: 10px;
+  }
+
+  .par-description {
+    left: 10px;
+    text-align: left;
+  }
+
+  .some-facts-div {
+    top: 1150px;
+    left: 10px;
+    width: 100%;
+    text-align: left;
+  }
+
+  .facts {
+    left: 10px;
+  }
+
+  .fact-bullets1, .fact-bullets2, .fact-bullets3, .fact-bullets4 {
+    left: 10px;
+    text-align: left;
+  }
+
+  .container1 {
+    width: 100%;
+    top: 1450px;
+  }
+
+  .profile-image {
+    top: 500px;
+  }
+
+  .nyt-maker {
+    left: 0px;
+    text-align: left;
+  }
+
+  .nyt-open {
+    right: 0px;
+  }
+}
+
+/* PROJECT PAGE */
+
+.proj-container {
+  text-align: center;
+  color: black;
+  position: absolute;
+  top: 75px;
+  left: 0px;
+  width: 100%;
+  max-width: 100%;
+  align-items: center;
+  justify-content: center;
+  justify-items: center;
+}
+
+.proj-container h1 {
+  position: relative;
+  color: white;
+  font-weight: 600;
+  font-size: 24;
+
+  font-family: 'Open Sans', sans-serif;
+}
+
+.proj-container h2 {
+  position: relative;
+  color: white;
+  font-weight: 600;
+  font-size: 22;
+
+  font-family: 'Open Sans', sans-serif;
+}
+
+.proj-container h3 {
+  text-align: left;
+  justify-content: left;
+  color: white;
+  font-weight: 400;
+  font-size: 30;
+  padding-left: 60px;
+  padding-right: 60px;
+
+  font-family: 'Open Sans', sans-serif;
+}
+
+.projects-title {
+    font-size: 25px;
+    color: white;
+    text-align: center;
+    position: relative;
+    top: 0px;
+
+    font-family: 'Open Sans', sans-serif;
+}
+
+.nytvisual-image {
+  position: relative;
+  width: 65%;
+}
+
+.table {
+  display: table;
+  width: 100%;
+  max-width: 100%;
+  position: relative;
+  padding-left: 60px;
+  padding-right: 60px;
+  text-align: center;
+  justify-content: center;
+}
+
+.left {
+  float: left;
+  text-align: left;
+  width: 50%;
+  position: absolute;
+  top: 0px;
+  padding-left: 0px;
+  padding-top: 5px;
+}
+
+.right {
+  float: right;
+  width: 40%;
+  top: 0px;
+  padding-right: 120px;
+}
+
+.keys {
+  text-align: left;
+}
+
+.crumble-all {
+  padding-left: 55px;
+}
+
+.crumble-image {
+  width: 16%;
+  display: inline-block;
+  float: left;
+}
+
+.carriage-image {
+  width: 30%;
+}
+
+.cusail-image {
+  width: 60%;
+}
+
+/* EXPERIENCE PAGE */
+
+.exp-container {
+  text-align: center;
+  color: black;
+  position: absolute;
+  top: 75px;
+  left: 0px;
+  width: 100%;
+  max-width: 100%;
+  align-items: center;
+  justify-content: center;
+  justify-items: center;
+}
+
+.exp-title {
+  font-size: 25px;
+  color: white;
+  text-align: center;
+  position: relative;
+  top: 0px;
+
+  font-family: 'Open Sans', sans-serif;
+}
+
+.exp-container h1 {
+  position: relative;
+  color: white;
+  font-weight: 600;
+  font-size: 24;
+
+  font-family: 'Open Sans', sans-serif;
+}
+
+.exp-container h2 {
+  position: relative;
+  color: white;
+  font-weight: 600;
+  font-size: 22;
+
+  font-family: 'Open Sans', sans-serif;
+}
+
+.exp-container h3 {
+  text-align: center;
+  justify-content: left;
+  color: white;
+  font-weight: 400;
+  font-size: 30;
+  padding-left: 60px;
+  padding-right: 60px;
+
+  font-family: 'Open Sans', sans-serif;
+}
+
+.tpm-internship {
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.software-internship {
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.brt-image {
+  width: 60%;
+}
+
+/* PUPPIES PAGE */
+
+.puppies-container {
+  color: white;
+  position: absolute;
+  top: 100px;
+  max-width: 100%;
+
+  font-family: 'Open Sans', sans-serif;
+}
+
+.puppies-title {
+  font-size: 25px;
+  color: white;
+  text-align: center;
+  position: relative;
+  top: 0px;
+
+  font-family: 'Open Sans', sans-serif;
+}
+
+.puppies-container h1 {
+  position: relative;
+  color: white;
+  font-weight: 600;
+  font-size: 24;
+  top: 0px;
+
+  font-family: 'Open Sans', sans-serif;
+}
+
+.puppies-container h2 {
+  position: relative;
+  color: white;
+  font-weight: 600;
+  font-size: 22;
+
+  font-family: 'Open Sans', sans-serif;
+}
+
+.puppies-container h3 {
+  text-align: left;
+  justify-content: left;
+  color: white;
+  font-weight: 400;
+  font-size: 30;
+  padding-left: 60px;
+  padding-right: 60px;
+
+  font-family: 'Open Sans', sans-serif;
+}
+
+.puppies-container h4 {
+  color: white;
+  font-weight: 400;
+  font-size: 30;
+  padding-left: 100px;
+  padding-right: 100px;
+
+  font-family: 'Open Sans', sans-serif;
+}
+
+.pups-all {
+  top: 100px;
+  width: 100%;
+  padding-left: 50px;
+}
+
+.pups-image1 {
+  height: auto;
+  padding: 3px;
+}
+
+.pups-image2 {
+  right: 37px;
+  width: 30%;
+  margin-right: 1%;
+  top: 373px;
+  position: absolute;
+  height: auto;
+}
+
+.pups-image3 {
+  left: 52px;
+  position: absolute;
+  width: 30%;top: 825px;
+}
+
+.pups-image4 {
+  float: left;
+  width: 30%;
+  margin-right: 1%;
+  top: 825px;
+  position: absolute;
+  height: auto;
+}
+
+.pups-image5 {
+  right: 37px;
+  width: 30%;
+  margin-right: 1%;
+  top: 825px;
+  position: absolute;
+  height: auto;
+}
+
+.pups-image6 {
+  float: left;
+  left: 50px;
+  width: 30%;
+  margin-right: 1%;
+  top: 1280px;
+  position: absolute;
+  height: auto;
+}
+
+.pups-image7 {
+  float: left;
+  width: 30%;
+  margin-right: 1%;
+  top: 1280px;
+  position: absolute;
+  height: auto;
+}
+
+.pups-image8 {
+  right: 37px;
+  width: 30%;
+  margin-right: 1%;
+  top: 1280px;
+  position: absolute;
+  height: auto;
+}
+
+@media only screen and (max-width: 600px) {
+
+  .pups-image2 {
+    top: 650px;
+  }
+}
+
+
+
+
+
+
+
