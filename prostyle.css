@@ -3,14 +3,14 @@
 }
 
 .container1 {
-    top: 1600px;
-    left: 100px;
+    top: 1400px;
+    left: 150px;
 }
 
 .connect-container {
-    left: 200px;
+    padding-left: 250px;
 }
 
 .header {
-    padding-left: 40px;
+    left: 33%;
 }
