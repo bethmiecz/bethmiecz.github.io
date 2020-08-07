@@ -327,21 +327,16 @@ html, body {
 
   .container1 {
     width: 100%;
-    top: 1450px;
+    top: 1400px;
     display: inline-block;
   }
 
   .profile-image {
-    top: 500px;
+    padding-top: 100px;
   }
 
   .nyt-maker {
-    left: 0px;
-    text-align: left;
-  }
-
-  .nyt-open {
-    right: 0px;
+    text-align: center;
   }
 }
 
