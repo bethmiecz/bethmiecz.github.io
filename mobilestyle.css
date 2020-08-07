@@ -3,8 +3,8 @@
   }
 
 .topnav a {
-    font-size: 18px;
-    padding: 20px 16px; 
+    font-size: 16px;
+    padding: 20px 14px; 
     display: inline-block;
   }
 
@@ -17,27 +17,37 @@
 .hey {
     text-align: center;
     left: 0px;
+    font-size: 2em;
+    width: 100%;
+    top: 30px;
 }
 
 .title {
     text-align: center;
     left: 0px;
+    font-size: 2em;
+    width: 100%;
 }
 
 .description {
     padding-top: 80px;
     text-align: center;
     left: 0px;
+    font-size: 2em;
+    width: 100%;
+    top: 25px;
 }
 
 .background-img {
     overflow: hidden;
-    width: auto;
+    width: 100%;
     height: 300px;
+    object-fit: cover;
+    top: 180px;
 }
 
 .container {
-    top: 700px;
+    top: 550px;
 }
 
 .container1 {
@@ -46,7 +56,7 @@
 }
 
 .profile-image {
-    padding-left: 25px;
+    padding-left: 0px;
 }
 
 .connect-container {
