@@ -240,7 +240,7 @@ html, body {
   text-align: center;
   overflow: hidden;
   float: left;
-  padding-top: 80px;
+  padding-top: 60px;
   padding-left: 150px;
 }
 
@@ -292,6 +292,13 @@ html, body {
   text-align: center;
   height: 200px;
   margin: auto;
+}
+
+.linkedin {
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    padding-top: 20px;
 }
 
 @media only screen and (max-width: 1200px) {
