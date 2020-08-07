@@ -286,6 +286,10 @@ body {
   .carriage-image {
     width: 30%;
   }
+
+  .carriage-div {
+    padding-top: 30px;
+  }
   
   .cusail-image {
     width: 60%;

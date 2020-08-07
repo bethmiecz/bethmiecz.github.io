@@ -30,7 +30,6 @@
 }
 
 .description {
-    padding-top: 80px;
     text-align: center;
     left: 0px;
     font-size: 2em;
@@ -48,6 +47,7 @@
 
 .container {
     top: 550px;
+    flex-direction: column;
 }
 
 .container1 {
@@ -63,4 +63,12 @@
     padding-top: 0px;
     padding-left: 0px;
     width: 100%;
+}
+
+.fact-bullets {
+    line-height: 1;
+}
+
+.carriage-div {
+    padding-top: 100px;
 }
