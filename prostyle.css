@@ -4,7 +4,11 @@
 
 .container1 {
     top: 1600px;
-    left: 300px;
+    left: 100px;
+}
+
+.connect-container {
+    left: 200px;
 }
 
 .header {
