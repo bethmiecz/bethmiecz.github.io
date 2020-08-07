@@ -1,0 +1,48 @@
+.topnav {
+    width: 100%;
+  }
+
+.topnav a {
+    font-size: 21px;
+    padding: 20px 16px; 
+    display: inline-block;
+  }
+
+.header {
+    width: 100%;
+    left: 0px;
+    top: 30px;
+}
+
+.hey {
+    text-align: center;
+}
+
+.description {
+    padding-top: 80px;
+}
+
+.background-img {
+    overflow: hidden;
+    width: auto;
+    height: 300px;
+}
+
+.container {
+    top: 700px;
+}
+
+.container1 {
+    top: 1200px;
+    width: 100%;
+}
+
+.profile-image {
+    padding-left: 25px;
+}
+
+.connect-container {
+    padding-top: 0px;
+    padding-left: 0px;
+    width: 100%;
+}
