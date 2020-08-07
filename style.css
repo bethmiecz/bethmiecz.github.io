@@ -224,7 +224,7 @@ html, body {
 }
 
 .profile {
-  width: 50%;
+  width: 50% auto;
   float: left;
 }
 
@@ -237,7 +237,7 @@ html, body {
 }
 
 .connect-container {
-  width: 50%;
+  width: 50% auto;
   text-align: center;
   overflow: hidden;
   float: left;
