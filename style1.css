@@ -1,0 +1,379 @@
+body {
+    text-align: center;
+}
+
+/* TOPNAV */
+
+.topnav {
+    background-color:rgba(192, 163, 254, 1.0);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+  }
+
+  .topnav a {
+    background-color: transparent;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    font-size: 160%;
+    display: flex;
+    padding-left: 4%;
+    padding-right: 4%;
+    padding-top: 1.5%;
+    padding-bottom: 1.5%;
+
+    font-family: 'Open Sans', sans-serif;
+  }
+  
+  .topnav a:hover {
+    font-family: 'Open Sans', sans-serif;
+    color: black;
+    background-color: white;
+  }
+  
+  .topnav a.active {
+    font-family: 'Open Sans', sans-serif;
+  }
+
+  /* HEADER */
+  
+  .hey {
+      width: 100%;
+      text-align: center;
+      line-height: 0.5em;
+      font-size: 4em;
+      color: white;
+  
+      font-family: 'Shadows Into Light', sans-serif;
+    }
+  
+  .title {
+      width: 100%;
+      text-align: center;
+      line-height: 0.5em;
+      font-size: 4em;
+      color: #C0A3FE;
+      font-weight: 800;
+  
+      font-family: 'Open Sans', sans-serif;
+    }
+  
+  .description {
+    width: 100%;
+    text-align: center;
+    line-height: 0.5em;
+    font-size: 3.5em;
+    color: white;
+  
+    font-family: 'Shadows Into Light', sans-serif;
+  }
+
+  .background-img {
+      position: flex;
+      width: 100%;
+  }
+
+  .container {
+      display: flex;
+      flex-direction: row;
+  }
+
+  .meetu-div {
+      display: flex;
+      text-align: center;
+      flex-direction: column;
+      flex: 1;
+      justify-content: center;
+      align-items: center;
+  }
+
+  .meetu {
+    color: white;
+    font-weight: 800;
+    font-size: 24;
+  
+    font-family: 'Open Sans', sans-serif;
+  }
+
+  .par-description {
+    color: white;
+    font-weight: 400;
+    font-size: 30;
+  
+    font-family: 'Open Sans', sans-serif;
+  }
+
+  .some-facts-div {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    flex: 0.75;
+    padding-right: 2%;
+  }
+
+  .facts {
+    color: white;
+    font-weight: 800;
+    font-size: 24;
+  
+    font-family: 'Open Sans', sans-serif;
+  }
+  
+  .fact-bullets { 
+    color: white;
+    font-weight: 400;
+    font-size: 30;
+    line-height: 0.5em;
+  
+    font-family: 'Open Sans', sans-serif;
+  }
+
+  .fact-bullets1 { 
+    color: white;
+    font-weight: 400;
+    font-size: 30;
+  
+    font-family: 'Open Sans', sans-serif;
+  }
+
+  .container1 {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+    align-self: center;
+  }
+  
+  .profile-image {
+    align-self: center;
+    width: 50%;
+    padding-top: 5%;
+  }
+
+  .connect {
+    text-align: center;
+    color: white;
+    font-weight: 800;
+    font-size: 24;
+  
+    font-family: 'Open Sans', sans-serif;
+  }
+  
+  /* .LI-profile-badge {
+    position: absolute;
+    top: 100px;
+    right: 26%;
+    background-color: white;
+  } */
+  
+  .github-badge {
+    text-align: center;
+  }
+  
+  .how-to-contact {
+    height: auto;
+    margin: auto;
+  }
+  
+  .contact-header {
+    text-align: center;
+    color: white;
+    font-weight: 400;
+    font-size: 30;
+  
+    font-family: 'Open Sans', sans-serif;
+  }
+  
+  .nyt-maker {
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    margin: auto;
+  }
+  
+  .linkedin {
+      color: white;
+      font-family: 'Open Sans', sans-serif;
+  }
+
+/* PROJECT PAGE */
+
+.proj-container h1 {
+    color: white;
+    font-weight: 600;
+    font-size: 24;
+  
+    font-family: 'Open Sans', sans-serif;
+  }
+  
+  .proj-container h2 {
+    color: white;
+    font-weight: 600;
+    font-size: 22;
+  
+    font-family: 'Open Sans', sans-serif;
+  }
+  
+  .proj-container h3 {
+    text-align: left;
+    justify-content: left;
+    color: white;
+    font-weight: 400;
+    font-size: 30;
+  
+    font-family: 'Open Sans', sans-serif;
+  }
+  
+  .projects-title {
+      font-size: 25px;
+      color: white;
+      text-align: center;
+  
+      font-family: 'Open Sans', sans-serif;
+  }
+
+  .nytvisual-image {
+    width: 65%;
+  }
+
+  .table {
+    display: table;
+    width: 100%;
+    max-width: 100%;
+    position: relative;
+    padding-left: 60px;
+    padding-right: 60px;
+    text-align: center;
+    justify-content: center;
+    padding-bottom: 60px;
+  }
+  
+  .left {
+    float: left;
+    text-align: left;
+    width: 40%;
+    position: absolute;
+    top: 0px;
+    padding-right: 10px;
+    padding-top: 5px;
+  }
+  
+  .right {
+    float: right;
+    width: 40%;
+    top: 0px;
+    padding-right: 100px;
+    padding-left: 10px;
+  }
+  
+  .keys {
+    text-align: left;
+  }
+  
+  .crumble-all {
+    padding-left: 55px;
+  }
+  
+  .crumble-image {
+    width: 16%;
+    display: inline-block;
+    float: left;
+  }
+  
+  .carriage-image {
+    width: 30%;
+  }
+  
+  .cusail-image {
+    width: 60%;
+  }
+
+  /* EXPERIENCE PAGE */
+
+  .exp-title {
+    font-size: 25px;
+    color: white;
+    text-align: center;
+    top: 0px;
+  
+    font-family: 'Open Sans', sans-serif;
+  }
+  
+  .exp-container h1 {
+    color: white;
+    font-weight: 600;
+    font-size: 24;
+  
+    font-family: 'Open Sans', sans-serif;
+  }
+  
+  .exp-container h2 {
+    color: white;
+    font-weight: 600;
+    font-size: 22;
+  
+    font-family: 'Open Sans', sans-serif;
+  }
+  
+  .exp-container h3 {
+    text-align: center;
+    justify-content: left;
+    color: white;
+    font-weight: 400;
+    font-size: 30;
+    padding-left: 60px;
+    padding-right: 60px;
+  
+    font-family: 'Open Sans', sans-serif;
+  }
+  
+  .tpm-internship {
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .software-internship {
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .brt-image {
+    width: 60%;
+  }
+
+  .puppies-title {
+    font-size: 25px;
+    color: white;
+    text-align: center;
+    top: 0px;
+  
+    font-family: 'Open Sans', sans-serif;
+  }
+
+  .puppies-title p {
+    font-size: 25px;
+    color: white;
+    text-align: center;
+    top: 0px;
+    font-weight: 600;
+    padding-left: 5%;
+    padding-right: 5%;
+  
+    font-family: 'Open Sans', sans-serif;
+  }
+
+  .pups-all {
+    display: flex;
+    max-width: 100%;
+    flex-wrap: wrap;
+  }
+
+  .pups-image {
+      width: 31%;
+      padding: 1%;
+  }
