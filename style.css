@@ -232,6 +232,7 @@ html, body {
   text-align: center;
   float: left;
   padding-left: 120px;
+  padding-bottom: 20px;
 }
 
 .connect-container {
@@ -239,7 +240,7 @@ html, body {
   text-align: center;
   overflow: hidden;
   float: left;
-  padding-top: 100px;
+  padding-top: 80px;
   padding-left: 150px;
 }
 
