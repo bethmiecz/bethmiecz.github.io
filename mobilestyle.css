@@ -3,7 +3,7 @@
   }
 
 .topnav a {
-    font-size: 21px;
+    font-size: 18px;
     padding: 20px 16px; 
     display: inline-block;
   }
@@ -16,10 +16,18 @@
 
 .hey {
     text-align: center;
+    left: 0px;
+}
+
+.title {
+    text-align: center;
+    left: 0px;
 }
 
 .description {
     padding-top: 80px;
+    text-align: center;
+    left: 0px;
 }
 
 .background-img {
